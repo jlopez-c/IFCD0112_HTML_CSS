@@ -1,0 +1,10 @@
+/* Resolucion 2 */
+
+ul li {
+	float: none;
+	color: blue; }
+	
+
+h1:after {
+	content: "List. de elem.";
+	color: blue; }	

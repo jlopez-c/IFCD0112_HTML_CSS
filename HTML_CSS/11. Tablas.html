@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+	<head>
+		<meta charset="utf-8" />
+		<title>11. Tablas</title>
+		<style>
+			table.empleados {
+				border: 1px solid red;
+				border-collapse: collapse;
+				margin: auto; 
+				width: 80%; }
+				
+			table.empleados td, table.empleados th {
+				border: 1px solid green;
+				padding: 10px; 
+				text-align: right; }
+				
+			table.empleados th {
+				background-color: brown;
+				color: white; }
+				
+			table.empleados tbody tr:nth-child(odd) {
+				background-color: lightgray; }
+				
+			table.empleados tbody tr:nth-child(even) {
+				background-color: gray; }
+				
+			table.empleados th:nth-child(2) {
+				width: 120px; }
+				
+			table.empleados td:nth-child(3) {
+				text-align: center;
+				font-style: italic;
+				font-weight: bold; }
+				
+			table.empleados td span {
+				font-weight: bold; }
+		</style>
+	</head>
+	
+	<body>
+		<table class="empleados">
+			<thead>
+				<tr>
+					<th>
+						Num. Empleado
+					</th>
+					<th>
+						Nombre
+					</th>
+					<th>
+						Edad
+					</th>
+					<th>
+						Salario
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						Ana  Maríade la O
+					</td>
+					<td>
+						23
+					</td>
+					<td>
+						<span>1200</span> euros.
+					</td>					
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						Eva
+					</td>
+					<td>
+						24
+					</td>
+					<td>
+						1300 euros.
+					</td>					
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						Luis
+					</td>
+					<td>
+						25
+					</td>
+					<td>
+						1400 euros.
+					</td>					
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						Olga 
+					</td>
+					<td>
+						21
+					</td>
+					<td>
+						2200 euros.
+					</td>
+												
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					
+					<td colspan="3">
+						Media: 
+					</td>
+					<td>
+						1510 euros
+					</td>					
+				</tr>
+			</tfoot>
+		</table>
+		
+		<div>
+			<p>lkdsajk salkj  lkj <span>lkasdkjd</span></p>
+	</body>
+</html>
+
+
+
+
+
+
